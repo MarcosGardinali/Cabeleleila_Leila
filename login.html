@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login - Cabeleleila Leila</title>
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <main class="pagina">
+
+        <aside class="lateral">
+            <h1 class="titulo__login__lateral">Cabeleleila Leila</h1>
+        </aside>
+        <section class="apresentacao">
+            <h1 class="titulo__login">Login</h1>
+            <form class="formulario">
+                <div class="campos__div">
+                    <label for="login" class="labelCampo__formulario">Login:</label>
+                    <input type="text" id="login" name="login" class="campo__formulario" data-campo__login
+                        placeholder="Usuário">
+                </div>
+                <div class="campos__div">
+                    <label for="senha" class="labelCampo__formulario">Senha:</label>
+                    <input type="password" id="senha" name="senha" class="campo__formulario" data-campo__senha
+                        placeholder="Senha">
+                </div>
+                <div class="botoes__login">
+                    <input type="submit" value="Login" class="botao__login" data-botao__login>
+                    <input type="submit" value="Cadastrar-se" class="botao__cadastro" data-botao__cadastro>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+    <script src="../JS/idUsuarioLogado.js" type="module"></script>
+    <script src="./JS/login.js" type="module"></script>
+
+    <footer class="rodape">
+        <p>&#169;Marcos Gardinali</p>
+    </footer>
+</body>
+
+</html>

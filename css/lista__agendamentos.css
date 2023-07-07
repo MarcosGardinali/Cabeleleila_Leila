@@ -1,0 +1,44 @@
+@import url(../css/login.css);
+
+.lista__agendamentos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--primeira_fonte);
+    color: var(--quarta_cor);
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.container__agendamentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--primeira_cor);
+    padding: 10%;
+    border: 0.1rem solid transparent;
+    border-radius: 3rem;
+    width: 90%;
+    gap: 1rem;
+}
+
+.lista__agendamentos li {
+    flex-basis: 28%;
+    list-style: none;
+}
+
+.botao__excluir__agendamento {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 5% 0 0 0;
+    padding: 4%;
+    background-color: var(--terceira_cor);
+    color: var(--quinta_cor);
+    border: 0.1 solid transparent;
+    border-radius: 4rem;
+    font-weight: bold;
+}
+
+.botao__excluir__agendamento:hover {
+    cursor: pointer;
+}

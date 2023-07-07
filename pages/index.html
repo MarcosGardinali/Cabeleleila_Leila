@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/lista__agendamentos.css">
+    <title>Cabeleleila Leila</title>
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+</head>
+
+<body class="corpo">
+
+    <header class="cabecalho__inicio">
+
+        <div class="titulo__logo">
+            <div class="container__titulo">
+                <h1 class="titulo__cabecalho__inicio"><a href="../pages/index.html">Cabeleleila Leila</a></h1>
+            </div>
+        </div>
+        <div class="cabecalho__botoes">
+            <a href="../pages/agendamento.html" alt="Botão de agendamento" class="cabecalho__agendar" title="Agendamentos"></a>
+            <h1><a href="../login.html"><img src="../img/sair.png" class="logout__imagem" title="Logout"></a></h1>
+        </div>    
+    </header>
+
+
+    <main class="conteudo">
+
+        <div class="titulo__filtro__agendamentos">
+            <h2 class="titulo__agendamentos">Agendamentos</h2>
+            <div class="filtros">
+                <h2>Filtrar agendamentos:</h2>
+                <label for="start-date">Data inicial:</label>
+                <input type="date" id="start-date" class="campos__filtro" name="start-date" />
+
+                <label for="end-date">Data final:</label>
+                <input type="date" id="end-date" class="campos__filtro" name="end-date" />
+
+                <input type="submit" value="Filtrar" class="botao__filtrar" data-botao__filtrar>
+            </div>
+        </div>
+        <section class="balao__agendamentos">
+            <ul class="lista__agendamentos" alt="Lista de agendamentos" data-lista>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="../JS/idUsuarioLogado.js" type="module"></script>
+    <script src="../JS/controlarAgendamentos.js" type="module"></script>
+    <script src="../JS/filtro.js" type="module"></script>
+    
+    <footer class="rodape">
+        <p>&#169;Marcos Gardinali</p>
+    </footer>
+    
+</body>
+
+</html>

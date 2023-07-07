@@ -1,0 +1,233 @@
+@import url(../css/login.css);
+
+.corpo {
+    box-sizing: border-box;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    font-family: var(--primeira_fonte);
+    color: var(--quarta_cor);
+}
+
+.cabecalho__inicio,
+.cabecalho__agendamentos,
+.cabecalho__concluido {
+    background-color: var(--primeira_cor);
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0rem 0rem 2.5rem 2.5rem;
+}
+
+.logo__agendamento__concluido {
+    width: 3.2rem;
+}
+
+.logout__imagem {
+    width: 3.2rem;
+}
+
+.titulo__logo {
+    display: flex;
+    gap: 2rem;
+}
+
+.container__titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo__cabecalho__inicio {
+    font-size: 2rem;
+}
+
+.cabecalho__logo {
+    width: 3.5rem;
+}
+
+.cabecalho__botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.cabecalho__agendar {
+    display: inline-block;
+    background-image: url(../img/agenda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.4rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 2% 5%;
+}
+
+.conteudo__agendamentos {
+    display: flex;
+    padding: 5% 30% 20%;
+}
+
+.titulo__filtro__agendamentos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 1%;
+}
+
+.titulo__agendamentos {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0% 0% 2% 3%;
+    color: var(--segunda_cor);
+}
+
+.filtros {
+    background-color: var(--segunda_cor);
+    border: 0.1rem solid transparent;
+    border-radius: 4rem;
+    opacity: 90%;
+    padding: 1%;
+    margin: 1%;
+    font-weight: bold;
+}
+
+.campos__filtro {
+    background-color: transparent;
+    border: 0.1rem solid var(--primeira_cor);
+    border-radius: 4rem;
+    width: 16rem;
+}
+
+.botao__filtrar {
+    padding: 0.1rem 0;
+    width: 5rem;
+    font-size: 1rem;
+    font-family: var(--primeira_fonte);
+    color: var(--quinta_cor);
+    background-color: var(--terceira_cor);
+    text-align: center;
+    border: 0.1rem solid transparent;
+    border-radius: 2rem;
+}
+
+.botao__filtrar:hover {
+    cursor: pointer;
+}
+
+.balao__agendamentos {
+    width: 100%;
+    background-color: var(--segunda_cor);
+    border: 0.1rem solid transparent;
+    border-radius: 4rem;
+    opacity: 90%;
+    transition: 1.5s all;
+}
+
+.balao__agendamentos:hover {
+    opacity: 100%;
+}
+
+/*CSS da página de criação de agendamentos*/
+
+.secao__formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--segunda_cor);
+    padding: 5% 5% 8%;
+    border: 0.1 solid transparent;
+    border-radius: 5rem;
+    font-size: 1.5rem;
+}
+
+.container__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.formulario__campo {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.formulario__campo__servicos{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.check__servicos__label{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.campo__data,
+.campo__escrita,
+.campo__lista {
+    background-color: transparent;
+    border: 0.1rem solid var(--primeira_cor);
+    border-radius: 4rem;
+    width: 16rem;
+}
+
+.campo__lista__servicos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-left: -1rem;
+    padding: 4%;
+    gap: 2rem;
+}
+
+.formulario__botao {
+    background-color: var(--terceira_cor);
+    color: var(--quinta_cor);
+    border: 0.1rem solid transparent;
+    font-weight: bold;
+    border-radius: 3rem;
+    transition: 1s all;
+}
+
+.formulario__botao:hover {
+    color: var(--terceira_cor);
+    background-color: var(--quinta_cor);
+}
+
+.mensagem {
+    display: flex;
+    justify-content: center;
+    padding: 3.5% 5%;
+}
+
+.container__mensagem__titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mensagem__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--segunda_cor);
+}
+
+.mensagem__agendamentos {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primeira_cor);
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    font-family: var(--primeira_fonte);
+    color: var(--primeira_cor);
+}

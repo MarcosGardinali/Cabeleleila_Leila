@@ -1,0 +1,68 @@
+{
+  "usuarios": [
+    {
+      "nome": "Leila",
+      "senha": "123",
+      "agendamentosUser": [
+        {
+          "servico": [
+            " Corte",
+            " Hidratação",
+            " Progressiva",
+            " Unhas"
+          ],
+          "calendario": "2023-07-06",
+          "horario": "12:16",
+          "id": 1688645796977
+        },
+        {
+          "servico": [
+            " Corte"
+          ],
+          "calendario": "2023-07-20",
+          "horario": "14:17",
+          "id": 1688645871909
+        },
+        {
+          "servico": [
+            " Corte"
+          ],
+          "calendario": "2023-07-20",
+          "horario": "20:17",
+          "id": 1688650579698
+        },
+        {
+          "servico": [
+            " Unhas"
+          ],
+          "calendario": "2023-07-07",
+          "horario": "20:56",
+          "id": 1688684187771
+        }
+      ],
+      "id": 1
+    },
+    {
+      "nome": "Maria",
+      "senha": "123",
+      "agendamentosUser": [
+        {
+          "servico": [
+            " Corte",
+            " Hidratação"
+          ],
+          "calendario": "2023-07-06",
+          "horario": "14:15",
+          "id": 1688645732042
+        }
+      ],
+      "id": 2
+    }
+  ],
+  "usuarioLogado": [
+    {
+      "idLogado": 1,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Agendamentos</title>
+    <link rel="shortcut icon" href="../img/icone.png" type="image/x-icon">
+</head>
+
+<body class="corpo">
+
+    <header class="cabecalho__agendamentos">
+
+        <h1 class="titulo__cabecalho__inicio"><a href="../pages/index.html">Página Inicial</a></h1>
+        <h1 titulo__cabecalho__inicio><a href="../login.html"><img src="../img/sair.png" class="logout__imagem" title="Logout"></a></h1>
+
+    </header>
+
+    <main class="conteudo__agendamentos">
+
+        <section class="secao__formulario">
+
+            <h2 class="formulario__titulo">Realize um agendamento</h3>
+                <form class="container__formulario" data-formulario>
+                    <div class="formulario__campo__servicos">
+                        <label class="campo__etiqueta" for="servicos">Serviço desejado:</label>
+                        <div class="campo__lista__servicos">
+                            <div class="check__servicos__label">
+                                <input type="checkbox" name="servicos" value=" Corte" id="corte-checkbox"
+                                    class="data-servicos">
+                                <label for="corte-checkbox">Corte</label>
+                            </div>
+                            <div class="check__servicos__label">
+                                <input type="checkbox" name="servicos" value=" Hidratação" id="hidratacao-checkbox"
+                                    class="data-servicos">
+                                <label for="hidratacao-checkbox">Hidratação</label>
+                            </div>
+                            <div class="check__servicos__label">
+                                <input type="checkbox" name="servicos" value=" Progressiva" id="progressiva-checkbox"
+                                    class="data-servicos">
+                                <label for="progressiva-checkbox">Progressiva</label>
+                            </div>
+                            <div class="check__servicos__label">
+                                <input type="checkbox" name="servicos" value=" Unhas" id="unhas-checkbox"
+                                    class="data-servicos">
+                                <label for="unhas-checkbox">Unhas</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagem">Data de agendamento:</label>
+                        <input type="date" id="data-input" class="campo__data" required id='imagem' data-calendario />
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagem">Horário de agendamento:</label>
+                        <input type="time" id="data-input" class="campo__data" required id='imagem' data-horario />
+                    </div>
+
+                    <input class="formulario__botao" type="submit" value="Agendar" />
+                </form>
+
+        </section>
+
+    </main>
+
+    <script src="../JS/idUsuarioLogado.js" type="module"></script>
+    <script src="../JS/criarAgendamento.js" type="module"></script>
+    <script src="../JS/comportamentos.js"></script>
+    
+    <footer class="rodape">
+        <p>&#169;Marcos Gardinali</p>
+    </footer>
+    
+</body>
+
+</html>
